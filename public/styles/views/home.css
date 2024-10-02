@@ -1,0 +1,134 @@
+* {
+
+}
+
+html{
+    background-color: white;
+}
+
+.cover-section{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-cover{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 45%;
+    color: white;
+    background-image: url('../../images/covers/cover-mobile.jpg');
+}
+
+.content{
+    margin: 10%;
+} .content h2{margin-bottom: 10px;}
+
+.map-container {
+    width: 100%;
+    max-width: 600px; /* Ajusta el tamaño máximo del mapa */
+    height: 400px;
+    margin: 0 auto; /* Centra el recuadro */
+    border: 2px solid #ccc; /* Borde opcional */
+  }
+
+  .faq-item {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .image-cover{
+        background-image: url('../../images/covers/cover.jpg');
+        background-size: 80%;
+        background-repeat: space;
+        background-color: rgb(40, 121, 125);
+    }
+    
+    .content{
+        margin: 5% 5% 10% 10%;
+        font-size: 24px;
+    }
+    
+    .map-container {
+        max-width: 1200px; 
+        height: 500px;
+      }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .image-cover{
+        background-image: url('../../images/covers/cover.jpg');
+        background-size: 80%;
+        background-repeat: space;
+        background-color: rgb(40, 121, 125);
+    }
+    
+    .content{
+        margin: 5% 5% 10% 10%;
+        font-size: 24px;
+    }
+    
+    .map-container {
+        max-width: 1200px; 
+        height: 500px;
+      }
+}
+
+/* 
+  ##Device = Tablets, Ipads, mobiles (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-cover{
+        background-image: url('../../images/covers/cover.jpg');
+        background-size: 75%;
+    }
+    
+    .content{
+        margin: 5% 5% 10% 10%;
+        font-size: 24px;
+    }
+    
+    .map-container {
+        max-width: 1200px; 
+        height: 500px;
+      }
+}
+
+/* 
+  ##Device = Tablets (Portrait)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .image-cover{
+    padding-bottom: 30%;
+  }
+}

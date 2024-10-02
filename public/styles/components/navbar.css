@@ -1,0 +1,102 @@
+nav{
+    position: fixed;
+    background-color: rgba(45, 164, 158, 0.9);
+    width: 100vw;
+    height: 7vh;
+    z-index: 1;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+nav div a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transition: scale 0.3s, color 0.3s;
+}
+
+nav div a:hover{
+    scale: 1.2;
+    color: rgb(233, 233, 233);
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    nav{
+        min-height: 9vh;
+    }
+    
+    nav div{
+        justify-content: space-around;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    nav{
+        height: 10vh;
+    }
+    
+    nav div{
+        justify-content: space-around;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads, mobiles (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    nav{
+        min-height: 7vw;
+    }
+    
+    nav div{
+        justify-content: space-around;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets (Portrait)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    nav{
+        height: 7vh;
+    }
+    
+    nav div{
+        justify-content: space-around;
+    }
+    
+  }
