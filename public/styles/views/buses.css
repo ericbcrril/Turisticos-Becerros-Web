@@ -133,6 +133,7 @@ html{
   #checkbox-4:checked + .img-4,
   #checkbox-5:checked + .img-5 {
     background-color: rgba(0, 0, 0, 0.5); /* Oscurece el fondo al seleccionar */
+    border-radius: 10px;
   }
   
 
