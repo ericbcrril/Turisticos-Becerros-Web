@@ -92,7 +92,7 @@ nav div a:hover{
   @media (min-width: 481px) and (max-width: 767px) {
     
     nav{
-        height: 7vh;
+        height: 8vh;
     }
     
     nav div{
@@ -100,3 +100,9 @@ nav div a:hover{
     }
     
   }
+
+  @media (max-width: 375px){
+    nav{
+        height: 9vh;
+    }
+}
