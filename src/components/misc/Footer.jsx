@@ -1,7 +1,7 @@
 //Pie de pagina
 import { React } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 function Footer() {
@@ -13,13 +13,13 @@ function Footer() {
                 </div>
                 <div>
                     <h2>Nuestras Redes</h2>
-                            <a href="#">
+                            <a href="https://www.facebook.com/profile.php?id=61566475322836&mibextid=ZbWKwL">
                                 <FontAwesomeIcon icon={faFacebook} className="social-icons"/>
-                                {"  www.facebook/Turísticos-Becerros"}
+                                {"  www.facebook/Turísticos Becerros"}
                             </a><br/>
-                            <a href="#">
+                            <a href="https://www.instagram.com/turisticos_becerros?igsh=MTBuY3N0bjZsdjFpYg==">
                                 <FontAwesomeIcon icon={faInstagram} className="social-icons"/>
-                                {"  www.instagram/Turísticos-Becerros"}
+                                {"  www.instagram/turisticos_becerros"}
                             </a>
                 </div>
             </section>

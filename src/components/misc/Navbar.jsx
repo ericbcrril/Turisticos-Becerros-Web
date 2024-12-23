@@ -6,7 +6,7 @@ function Navbar() {
     return(
         <nav>
             <div>
-                <img src="icons/TB-icon.jpg"/>
+                <img src="icons/TB-icon.jpg" alt="navbar"/>
                 <Link to="/">Inicio</Link>
                 <Link to="/unidades">Unidades</Link>
                 <Link to="/contactanos">Contactanos</Link>

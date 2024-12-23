@@ -1,6 +1,6 @@
 //Inicio
-import { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+//import { useState } from 'react';
+//import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 //Componentes
 import Navbar from '../components/misc/Navbar';
 import Footer from '../components/misc/Footer';
@@ -11,9 +11,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function Home() {
 
+
+    {/* 
     const [openIndex, setOpenIndex] = useState(null);
 
-    const toggleFAQ = (index) => {
+        const toggleFAQ = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
@@ -31,6 +33,7 @@ function Home() {
           answer: 'Los operadores de cada unidad están capacitados para cualquier tipo de situación; todos cuentan con licencia federal y de turismo.',
         },
       ];
+    */}
       
 
     return(
@@ -72,17 +75,14 @@ function Home() {
 
                 <div className="content">
                     <h2>Conócenos</h2>
-                    <p>El mejor servicio al mejor costo. Viaja de forma 
-                        segura y cómoda en nuestras diferentes unidades
-                        equipadas con distintas amplias plazas.
-                    </p>
+                    <p>Porque viajar es vivir, ¡vive hoy!</p>
                     <p>Ofrecemos en todas las unidades:</p>
                     <p>- Traslado por autopista.</p>
                     <p>- Bebidas de cortesia.</p>
                     <p>- Seguro de viajero.</p>
                     <p>- Aire acondicionado.</p>
                     <p>- W.C</p>
-                    <p>- Pantallas de entretenimiento.</p>
+                    <p>- Pantallas.</p>
                 </div>
 
                 <div className="content">
@@ -91,10 +91,15 @@ function Home() {
                     <div class="map-container">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.06192876665216!2d-103.38428447797928!3d20.526900509907254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f538e08e60453%3A0x4bc7859913d4a057!2sRenta%20de%20Autobuses%20Becerril!5e0!3m2!1sen!2smx!4v1727581142935!5m2!1sen!2smx" 
-                        width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        width="100%" height="100%" 
+                        allowfullscreen={true}  
+                        title='Mapa de Renta de Autobuses Becerril'
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                     </div>
                 </div>
 
+                {/*
                 <div className="content">
                 <h2>Preguntas Frecuentes</h2>
                     {faqs.map((faq, index) => (
@@ -111,6 +116,7 @@ function Home() {
                         </div>
                     ))}
                 </div>
+                */}
 
             </main>
 

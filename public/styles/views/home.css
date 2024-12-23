@@ -1,6 +1,4 @@
-* {
 
-}
 
 html{
     background-color: white;
@@ -20,7 +18,7 @@ html{
     align-items: flex-end;
     padding-bottom: 45%;
     color: white;
-    background-image: url('../../images/covers/cover-mobile.jpg');
+    background-image: url('../../images/covers/cover-mobile.webp');
 }
 
 .content{
@@ -59,7 +57,7 @@ html{
 
 @media (min-width: 1281px) {
     .image-cover{
-        background-image: url('../../images/covers/cover.jpg');
+        background-image: url('../../images/covers/cover.webp');
         background-size: 80%;
         background-repeat: space;
         background-color: rgb(40, 121, 125);
@@ -83,7 +81,7 @@ html{
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .image-cover{
-        background-image: url('../../images/covers/cover.jpg');
+        background-image: url('../../images/covers/cover.webp');
         background-size: 80%;
         background-repeat: space;
         background-color: rgb(40, 121, 125);
@@ -107,7 +105,7 @@ html{
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .image-cover{
-        background-image: url('../../images/covers/cover.jpg');
+        background-image: url('../../images/covers/cover.webp');
         background-size: 75%;
     }
     
