@@ -32,8 +32,11 @@ function Buses(){
 
     const OlimpicoCa = () =>{
         return(
-            <div className='bus-info'>
-                <h2 style={{margin: '1%'}}>Olimpico 053</h2><br />
+            <div className='bus-info' >
+                <h2 style={{margin: '1%'}}>Olimpico 053<div className="scroll-indicator" 
+                     onClick={() => window.scrollBy(0, window.innerHeight)}>
+                    <span className="arrow">👇 Desliza 👆</span>
+                </div></h2><br />
                 <p>- Unidad con 28 amplias plazas.</p>
                 <p>- Aire acondicionado.</p>
                 <p>- Pantallas de entretenimiento.</p>
@@ -47,7 +50,10 @@ function Buses(){
     const OlimpicoMelon = () =>{
         return(
             <div className='bus-info'>
-                <h2 style={{margin: '1%'}}>Olimpico 151</h2><br />
+                <h2 style={{margin: '1%'}}>Olimpico 151<div className="scroll-indicator" 
+                     onClick={() => window.scrollBy(0, window.innerHeight)}>
+                    <span className="arrow">👇 Desliza 👆</span>
+                </div></h2><br />
                 <p>- Unidad con 28 amplias plazas.</p>
                 <p>- Aire acondicionado.</p>
                 <p>- Pantallas de entretenimiento.</p>
@@ -63,7 +69,10 @@ function Buses(){
     const Dorado = () =>{
         return(
             <div className='bus-info'>
-                <h2 style={{margin: '1%'}}>Dorado 1850</h2><br />
+                <h2 style={{margin: '1%'}}>Dorado 1850<div className="scroll-indicator" 
+                     onClick={() => window.scrollBy(0, window.innerHeight)}>
+                    <span className="arrow">👇 Desliza 👆</span>
+                </div></h2><br />
                 <p>- Unidad con 43 plazas.</p>
                 <p>- Aire acondicionado.</p>
                 <p>- Pantallas de entretenimiento.</p>
@@ -79,7 +88,10 @@ function Buses(){
     const Paradiso = () =>{
         return(
             <div className='bus-info'>
-                <h2 style={{margin: '1%'}}>Paradiso</h2><br />
+                <h2 style={{margin: '1%'}}>Paradiso<div className="scroll-indicator" 
+                     onClick={() => window.scrollBy(0, window.innerHeight)}>
+                    <span className="arrow">👇 Desliza 👆</span>
+                </div></h2><br />
                 <p>- Unidad con 46 plazas.</p>
                 <p>- Aire acondicionado.</p>
                 <p>- Pantallas de entretenimiento.</p>
@@ -94,7 +106,10 @@ function Buses(){
     const Viaggio = () =>{
         return(
             <div className='bus-info'>
-                <h2 style={{margin: '1%'}}>Viaggio</h2><br />
+                <h2 style={{margin: '1%'}}>Viaggio<div className="scroll-indicator" 
+                     onClick={() => window.scrollBy(0, window.innerHeight)}>
+                    <span className="arrow">👇 Desliza 👆</span>
+                </div></h2><br />
                 <p>- Unidad con 46 plazas.</p>
                 <p>- Aire acondicionado.</p>
                 <p>- Pantallas de entretenimiento.</p>

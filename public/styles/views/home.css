@@ -1,132 +1,206 @@
-
-
-html{
-    background-color: white;
+html {
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  align-items: center;
 }
 
-.cover-section{
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+ h2 {
+  color: #28507a !important;
 }
 
-.image-cover{
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 45%;
-    color: white;
-    background-image: url('../../images/covers/cover-mobile.webp');
+.cover-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.content{
-    margin: 10%;
-} .content h2{margin-bottom: 10px;}
+.image-cover {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 45%;
+  color: white;
+  background-image: url('../../images/covers/cover-mobile.webp');
+}
+
+.carousel-home-control-prev-icon, .carousel-home-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.content {
+  margin: 10%;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #28507a;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.content ul li::before {
+  content: '\2022';
+  color: #28507a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.container-caracts-imgs-buses{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-home{
+  width: fit-content;
+}
+.imgCarr-home{
+  width: 100%;
+  border-radius: 20px;
+}
 
 .map-container {
-    width: 100%;
-    max-width: 600px; /* Ajusta el tamaño máximo del mapa */
-    height: 400px;
-    margin: 0 auto; /* Centra el recuadro */
-    border: 2px solid #ccc; /* Borde opcional */
-  }
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .faq-item {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+.faq-item {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
 .faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px 0;
-    font-size: 18px;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+.faq-answer {
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #28507a;
+}
 
 @media (min-width: 1281px) {
-    .image-cover{
-        background-image: url('../../images/covers/cover.webp');
-        background-size: 80%;
-        background-repeat: space;
-        background-color: rgb(40, 121, 125);
-    }
-    
-    .content{
-        margin: 5% 5% 10% 10%;
-        font-size: 24px;
-    }
-    
-    .map-container {
-        max-width: 1200px; 
-        height: 500px;
-      }
-}
+  .image-cover {
+      background-image: url('../../images/covers/cover.webp');
+      background-size: 80%;
+      background-repeat: space;
+      background-color: rgb(40, 121, 125);
+  }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
+  .carousel-home{
+    width: 45vw !important;
+  }
+  .imgCarr-home{
+    height: 70vh;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .content {
+      margin: 5% 5% 10% 10%;
+      font-size: 24px;
+  }
+
+  .map-container {
+      max-width: 1200px;
+      height: 500px;
+  }
+}
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .image-cover{
-        background-image: url('../../images/covers/cover.webp');
-        background-size: 80%;
-        background-repeat: space;
-        background-color: rgb(40, 121, 125);
-    }
-    
-    .content{
-        margin: 5% 5% 10% 10%;
-        font-size: 24px;
-    }
-    
-    .map-container {
-        max-width: 1200px; 
-        height: 500px;
-      }
-}
+  .image-cover {
+      background-image: url('../../images/covers/cover.webp');
+      background-size: 80%;
+      background-repeat: space;
+      background-color: rgb(40, 121, 125);
+  }
 
-/* 
-  ##Device = Tablets, Ipads, mobiles (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
+  .content {
+      margin: 5% 5% 10% 10%;
+      font-size: 24px;
+  }
+
+  .map-container {
+      max-width: 1200px;
+      height: 500px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .image-cover{
-        background-image: url('../../images/covers/cover.webp');
-        background-size: 75%;
-    }
-    
-    .content{
-        margin: 5% 5% 10% 10%;
-        font-size: 24px;
-    }
-    
-    .map-container {
-        max-width: 1200px; 
-        height: 500px;
-      }
+  .image-cover {
+      background-image: url('../../images/covers/cover-mobile.webp');
+      background-size: cover;
+      padding-bottom: 20%;
+  }
+
+  .content {
+      margin: 5% 5% 10% 10%;
+      font-size: 24px;
+  }
+
+  .map-container {
+      max-width: 1200px;
+      height: 500px;
+  }
 }
 
-/* 
-  ##Device = Tablets (Portrait)
-  ##Screen = B/w 481px to 767px
-*/
-
 @media (min-width: 481px) and (max-width: 767px) {
-  .image-cover{
-    padding-bottom: 30%;
+  .image-cover {
+      padding-bottom: 30%;
+  }
+
+  .content {
+      margin: 5%;
+      font-size: 20px;
+  }
+
+  .map-container {
+      max-width: 100%;
+      height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+      margin: 5%;
+      font-size: 18px;
+  }
+
+  .map-container {
+      max-width: 100%;
+      height: 250px;
   }
 }

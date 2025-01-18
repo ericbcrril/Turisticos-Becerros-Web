@@ -105,4 +105,21 @@ nav div a:hover{
     nav{
         height: 9vh;
     }
+    nav div a{
+      margin: 10px;
+    }
+}
+
+@media (max-height: 690px){
+  nav{
+    height: 10dvh;
+  }
+  nav div a{
+    margin: 10px;
+  }
+}
+@media (max-height: 570px){
+  nav{
+    height: 60px;
+  }
 }
