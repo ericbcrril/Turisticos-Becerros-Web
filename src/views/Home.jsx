@@ -21,27 +21,41 @@ function Home() {
             <Navbar />
 
             <main>
-                <section className="cover-section">
-                    <div className="image-cover">
-                        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img src="images/bus-draws/olimpico-ca.png" className="d-block w-100" alt="" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="images/bus-draws/olimpico-melon.png" className="d-block w-100" alt="" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="images/bus-draws/dorado.png" className="d-block w-100" alt="" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="images/bus-draws/paradiso.png" className="d-block w-100" alt="" />
-                                </div>
+            <section className="cover-section">
+                <div className="image-cover">
+                    <div 
+                        id="carouselExampleAutoplaying" 
+                        className="carousel slide" 
+                        data-bs-ride="carousel" 
+                        data-bs-interval="3000" 
+                        data-bs-pause="false"
+                    >
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img src="images/bus-draws/olimpico-ca.png" className="d-block w-100" alt="Olimpico CA" />
                             </div>
-
+                            <div className="carousel-item">
+                                <img src="images/bus-draws/olimpico-melon.png" className="d-block w-100" alt="Olimpico Melon" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="images/bus-draws/dorado.png" className="d-block w-100" alt="Dorado" />
+                            </div>
+                            <div className="carousel-item">
+                                <img src="images/bus-draws/paradiso.png" className="d-block w-100" alt="Paradiso" />
+                            </div>
                         </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
                     </div>
-                </section>
+                </div>
+            </section>
+
 
                 <div className="content container mt-5">
                     <h2 className="text-center mb-4">Conócenos</h2>
@@ -70,18 +84,33 @@ function Home() {
                         <div className="carousel-inner" style={{width: 'fit-content'}}>
                                 <div className="carousel-item active">
                                     <img src={img0} className="imgCarr-home" alt=""/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 style={{color: 'white', fontWeight: 'bold'}}>Olimpico 053</h5>
+                                    </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={img1} className="imgCarr-home" alt=""/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 style={{color: 'white', fontWeight: 'bold'}}>Olimpico 151</h5>
+                                    </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={img2} className="imgCarr-home" alt=""/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 style={{color: 'white', fontWeight: 'bold'}}>Dorado 1850</h5>
+                                    </div>
                                 </div>
                                 <div className="carousel-item"> 
                                     <img src={img3} className="imgCarr-home" alt=""/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 style={{color: 'white', fontWeight: 'bold'}}>Paradiso</h5>
+                                    </div>
                                 </div>
                                 <div className="carousel-item"> 
                                     <img src={img4} className="imgCarr-home" alt=""/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 style={{color: 'white', fontWeight: 'bold'}}>Viaggio</h5>
+                                    </div>
                                 </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

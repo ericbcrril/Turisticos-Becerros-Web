@@ -1,92 +1,25 @@
-.main-contactUs{
+.main-contactUs {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
 }
 
-.form-contactUs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    width: 90vw;
+.form-contactUs {
+    width: 100%;
+    max-width: 600px;
 }
 
-.form-contactUs input,
-.form-contactUs textarea,
-.select-bus{
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
-    color: blue;
-    margin: 5%;
-}
-
-.btn-form-contactUs{
-    background-color: rgb(235, 235, 235) !important;
-    color: blue;
-}
-
-@media (min-width: 1281px) {
-    .form-contactUs{
-        padding-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-self: center;
-        height: 100vh;
-        width: 40vw;
+@media (min-width: 768px) {
+    .form-contactUs {
+        padding: 2rem;
     }
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .form-contactUs{
-        padding-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-self: center;
-        height: 100vh;
-        width: 40vw;
+@media (min-width: 1024px) {
+    .form-contactUs {
+        width: 50%;
     }
 }
-
-/* 
-  ##Device = Tablets, Ipads, mobiles (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .form-contactUs{
-        margin-top: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-self: center;
-        height: 60vh;
-        width: 60vw;
-    }
-}
-
-/* 
-  ##Device = Tablets (Portrait)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-    .form-contactUs{
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-self: center;
-        height: 80vh;
-        width: 70vw;
-    }
-}
-

@@ -25,7 +25,12 @@ nav div a{
     color: white;
     text-decoration: none;
     margin: 20px;
+    font-weight: bold;
     transition: scale 0.3s, color 0.3s;
+}
+.active-link {
+  font-weight: bold;
+  color: blue; /* Cambia el color al enlace activo */
 }
 
 nav div a:hover{
@@ -46,6 +51,10 @@ nav div a:hover{
     
     nav div{
         justify-content: space-around;
+    }
+
+    nav div a{
+      font-size: x-large;
     }
     
   }

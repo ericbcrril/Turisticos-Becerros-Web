@@ -1,127 +1,85 @@
-footer{
+.footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: rgb(45, 164, 158);
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-footer .s0{
+.footer-top {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 8%;
-    background-color: rgb(45, 164, 158);
-    width: 100%;
-    height: 90%;
-}footer .s0 p,
- footer .s0 h2,
- footer .s0 a
- { 
+    justify-content: center;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 600px;
+}
+
+.footer-social h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.social-link {
     color: white;
     text-decoration: none;
- }
-
-.footer-txt{
-    justify-self: center;
-    width: 70%;
-}
-
-footer .s1{
-    background-color: rgb(34, 128, 123);
-    width: 100%;
-    height: 20%;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    padding: 1%;
-    padding-top: 3%;
-}footer .s1 a{ color: white; }
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-    footer .s0{
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 2% 10% 2% 10%;
-    }
-    
-    .footer-txt{
-        width: 25%;
-        font-size: 18px;
-    }
-    
-    footer .s1{
-        padding-top: 1%;
-    }  
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-    footer .s0{
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 2% 10% 2% 10%;
-    }
-    
-    .footer-txt{
-        width: 25%;
-        font-size: 18px;
-    }
-    
-    footer .s1{
-        padding-top: 1%;
-    }  
+.social-icon {
+    font-size: 24px;
 }
 
-/* 
-  ##Device = Tablets, Ipads, mobiles (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    footer .s0{
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 2% 10% 2% 10%;
-    }
-    
-    .footer-txt{
-        width: 25%;
-        font-size: 18px;
-    }
-    
-    footer .s1{
-        padding-top: 1%;
-    } 
+.footer-bottom {
+    background-color: rgb(34, 128, 123);
+    padding: 10px 0;
+    text-align: center;
 }
 
-/* 
-  ##Device = Tablets (Portrait)
-  ##Screen = B/w 481px to 767px
-*/
+.designer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
 
-@media (min-width: 481px) and (max-width: 767px) {
-    footer .s0{
+@media (min-width: 768px) {
+    .footer-top {
         flex-direction: row;
-        justify-content: space-around;
-        padding: 2% 10% 2% 10%;
+        justify-content: space-between;
+        padding: 2% 10%;
     }
-    
-    .footer-txt{
-        padding-top: 5%;
-        width: 40%;
+
+    .footer-text {
+        max-width: 300px;
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: right;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
         font-size: 18px;
     }
-    
-    footer .s1{
-        padding-top: 1%;
-    } 
+
+    .social-icon {
+        font-size: 28px;
+    }
+
+    .designer-link {
+        font-size: 16px;
+    }
 }

@@ -36,13 +36,16 @@ function Buses(){
                 <h2 style={{margin: '1%'}}>Olimpico 053<div className="scroll-indicator" 
                      onClick={() => window.scrollBy(0, window.innerHeight)}>
                     <span className="arrow">👇 Desliza 👆</span>
-                </div></h2><br />
-                <p>- Unidad con 28 amplias plazas.</p>
-                <p>- Aire acondicionado.</p>
-                <p>- Pantallas de entretenimiento.</p>
-                <p>- Cargadores para celular.</p>
-                <p>- Bebidas de cortesia.</p>
-                <p>-Seguro de viajero</p>
+                </div></h2>
+                <li>🚌 - Unidad con 28 amplias plazas.</li>
+                <li>❄️ - Aire acondicionado.</li>  
+                <li>📺 - Pantallas de entretenimiento.</li>  
+                <li>🔌 - Cargadores para celular.</li>  
+                <li>🥤 - Bebidas de cortesía.</li>  
+                <li>🛡️ - Seguro de viajero.</li>  
+                <li style={{color: 'white'}}>D</li>
+                <li style={{color: 'white'}}>D</li>
+                <br />
                 <button type="button" className="btn btn-info" onClick={() => setViewCroquis(true)}>Ver Croquis...</button>
             </div>
         );
@@ -53,14 +56,16 @@ function Buses(){
                 <h2 style={{margin: '1%'}}>Olimpico 151<div className="scroll-indicator" 
                      onClick={() => window.scrollBy(0, window.innerHeight)}>
                     <span className="arrow">👇 Desliza 👆</span>
-                </div></h2><br />
-                <p>- Unidad con 28 amplias plazas.</p>
-                <p>- Aire acondicionado.</p>
-                <p>- Pantallas de entretenimiento.</p>
-                <p>- Cargadores para celular.</p>
-                <p>- Bebidas de cortesia.</p>
-                <p>- Seguro de viajero.</p>
-                <p>- W.C</p>
+                </div></h2>
+                <li>🚌 - Unidad con 28 amplias plazas.</li>
+                <li>❄️ - Aire acondicionado.</li>  
+                <li>📺 - Pantallas de entretenimiento.</li>  
+                <li>🔌 - Cargadores para celular.</li>  
+                <li>🥤 - Bebidas de cortesía.</li>  
+                <li>🛡️ - Seguro de viajero.</li>  
+                <li>🚻 - W.C.</li>  
+                <li style={{color: 'white'}}>D</li>
+                <br />
                 <button type="button" className="btn btn-info" onClick={() => setViewCroquis(true)}>Ver Croquis...</button>
             </div>
             
@@ -72,15 +77,16 @@ function Buses(){
                 <h2 style={{margin: '1%'}}>Dorado 1850<div className="scroll-indicator" 
                      onClick={() => window.scrollBy(0, window.innerHeight)}>
                     <span className="arrow">👇 Desliza 👆</span>
-                </div></h2><br />
-                <p>- Unidad con 43 plazas.</p>
-                <p>- Aire acondicionado.</p>
-                <p>- Pantallas de entretenimiento.</p>
-                <p>- Cargadores para celular.</p>
-                <p>- Bebidas de cortesia.</p>
-                <p>- Seguro de viajero.</p>
-                <p>- Amplio espacio para equipaje.</p>
-                <p>- W.C</p>
+                </div></h2>
+                <li>🚌 - Unidad con 43 plazas.</li>  
+                <li>❄️ - Aire acondicionado.</li>  
+                <li>📺 - Pantallas de entretenimiento.</li>  
+                <li>🔌 - Cargadores para celular.</li>  
+                <li>🥤 - Bebidas de cortesía.</li>  
+                <li>🛡️ - Seguro de viajero.</li>  
+                <li>🧳 - Amplio espacio para equipaje.</li>  
+                <li>🚻 - W.C.</li>  
+                <br />
                 <button type="button" className="btn btn-info" onClick={() => setViewCroquis(true)}>Ver Croquis...</button>
             </div>
         );
@@ -91,14 +97,16 @@ function Buses(){
                 <h2 style={{margin: '1%'}}>Paradiso<div className="scroll-indicator" 
                      onClick={() => window.scrollBy(0, window.innerHeight)}>
                     <span className="arrow">👇 Desliza 👆</span>
-                </div></h2><br />
-                <p>- Unidad con 46 plazas.</p>
-                <p>- Aire acondicionado.</p>
-                <p>- Pantallas de entretenimiento.</p>
-                <p>- Cargadores para celular.</p>
-                <p>- Bebidas de cortesia.</p>
-                <p>- Seguro de viajero</p>
-                <p>- W.C</p>
+                </div></h2>
+                <li>🚌 - Unidad con 46 plazas.</li>
+                <li>❄️ - Aire acondicionado.</li>  
+                <li>📺 - Pantallas de entretenimiento.</li>  
+                <li>🔌 - Cargadores para celular.</li>  
+                <li>🥤 - Bebidas de cortesía.</li>  
+                <li>🛡️ - Seguro de viajero.</li>  
+                <li>🚻 - W.C.</li>  
+                <li style={{color: 'white'}}>D</li>
+                <br />
                 <button type="button" className="btn btn-info" onClick={() => setViewCroquis(true)}>Ver Croquis...</button>
             </div>
         );
@@ -109,13 +117,16 @@ function Buses(){
                 <h2 style={{margin: '1%'}}>Viaggio<div className="scroll-indicator" 
                      onClick={() => window.scrollBy(0, window.innerHeight)}>
                     <span className="arrow">👇 Desliza 👆</span>
-                </div></h2><br />
-                <p>- Unidad con 46 plazas.</p>
-                <p>- Aire acondicionado.</p>
-                <p>- Pantallas de entretenimiento.</p>
-                <p>- Bebidas de cortesia.</p>
-                <p>- Seguro de viajero</p>
-                <p>- W.C</p>
+                </div></h2>
+                <li>🚌 - Unidad con 46 plazas.</li>
+                <li>❄️ - Aire acondicionado.</li>  
+                <li>📺 - Pantallas de entretenimiento.</li>  
+                <li>🥤 - Bebidas de cortesía.</li>  
+                <li>🛡️ - Seguro de viajero.</li>  
+                <li>🚻 - W.C.</li>  
+                <li style={{color: 'white'}}>D</li>
+                <li style={{color: 'white'}}>D</li>
+                <br />
                 <button type="button" className="btn btn-info" onClick={() => setViewCroquis(true)}>Ver Croquis...</button>
             </div>
         );
@@ -206,7 +217,7 @@ function Buses(){
                             <span className="visually-hidden">Next</span>
                         </button>
                         </div>
-                    </div><hr/>
+                    </div>
 
                     {SelectedBusI}  
                     
